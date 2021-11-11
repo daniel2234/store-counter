@@ -48,7 +48,9 @@ function total() {
   totalCountEl.innerText = totalPeopleEntered
 }
 
-function createEventID() {
-  let eventID = 1
-  
+function resetCounter() {
+  console.log("gets clicked on.");
+  saveEl.innerText = `Previous Entries: ${0}`
+  totalPeopleEntered = 0
+  totalCountEl.innerText = 0
 }

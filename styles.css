@@ -34,7 +34,10 @@ button {
   background-color: darkslateblue;
 }
 
-
 #save-btn {
   background-color: darkolivegreen;
+}
+
+#reset-btn {
+  background-color: firebrick;
 }
